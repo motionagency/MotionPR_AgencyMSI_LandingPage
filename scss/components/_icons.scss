@@ -1,0 +1,31 @@
+// Social Media buttons
+.social {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none outside none;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .fa {
+    width: 50px;
+    height: 50px;
+    color: #F91057;
+    background-color: transparent;
+    padding-top: 12px;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: 2px solid #F91057;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+}
+
+.fa-lg {
+  font-size: 1.7em !important;
+  line-height: 1em !important;
+}

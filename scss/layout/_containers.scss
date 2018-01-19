@@ -3,7 +3,7 @@
   align-items: center;
 
   .arrow-down {
-    width: 40px;
+    width: 50px;
     margin: 0 auto;
     display: block;
     position: absolute;
@@ -18,16 +18,35 @@
   color: $black;
   height: 100%;
 
+  .wrap {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
   @include responsive(min-width, 600px) {
     height: 600px;
     display: flex;
     align-items: center;
+  }
+
+  .blockquote-wrap {
+    max-width: 450px;
+    float: right;
   }
 }
 
 .second {
   background-color: rgba(0, 0, 0, .8);
   color: $white;
+
+  .wrap {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  blockquote {
+    border-left: 10px solid $white;
+  }
 
   @include responsive(min-width, 600px) {
     height: 600px;
