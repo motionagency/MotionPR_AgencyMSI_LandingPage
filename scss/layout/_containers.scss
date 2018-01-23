@@ -14,7 +14,7 @@
 }
 
 .first {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, .95);
   color: $black;
   height: 100%;
 
@@ -36,7 +36,7 @@
 }
 
 .second {
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(0, 0, 0, .95);
   color: $white;
 
   .wrap {
@@ -56,7 +56,7 @@
 }
 
 .third {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, .95);
 
   @include responsive(min-width, 992px) {
     height: 600px;

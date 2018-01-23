@@ -10,6 +10,11 @@
     padding-right: .8em;
   }
 
+  .fa-mouse-pointer {
+    padding-left: 4px;
+    // font-size: 1.8em !important;
+  }
+
   .fa {
     width: 50px;
     height: 50px;
@@ -25,7 +30,7 @@
     transition: all 0.3s ease-in-out 0s;
 
     &:hover {
-      background-color: $white;
+      background-color: transparent;
       color: $motion-orange;
     }
   }
@@ -44,6 +49,11 @@
     padding-right: .8em;
   }
 
+  .fa-mouse-pointer {
+    padding-left: 4px;
+    // font-size: 1.8em !important;
+  }
+
   .fa {
     width: 50px;
     height: 50px;
@@ -58,7 +68,7 @@
     transition: all 0.3s ease-in-out 0s;
 
     &:hover {
-      background-color: $white;
+      background-color: transparent;
       color: $msi-red;
     }
   }
@@ -66,6 +76,6 @@
 }
 
 .fa-lg {
-  font-size: 2em !important;
+  font-size: 1.7em !important;
   //line-height: 1em !important;
 }
