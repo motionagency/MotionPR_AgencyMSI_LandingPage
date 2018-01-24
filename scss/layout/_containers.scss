@@ -57,6 +57,7 @@
 
 .third {
   background-color: rgba(255, 255, 255, .95);
+  text-align: center;
 
   @include responsive(min-width, 992px) {
     height: 600px;

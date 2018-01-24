@@ -1,7 +1,13 @@
 footer {
   background-color: $black;
   color: $white;
-  height: 100px;
+  height: 100%;
+
+  @include responsive(min-width, 600px) {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
 
   p {
   	font-size: 1rem;

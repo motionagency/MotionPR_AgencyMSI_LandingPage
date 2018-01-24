@@ -56,6 +56,10 @@
 .button-list {
   list-style: none;
   display: inline-flex;
+
+  li {
+    margin-right: 10px;
+  }
 }
 
 .button-one {
