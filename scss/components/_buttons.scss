@@ -55,10 +55,26 @@
 // Buttons
 .button-list {
   list-style: none;
-  display: inline-flex;
+	text-align: center;
+	padding-left: 0;
+	margin-bottom: 15px;
+
+	@include responsive(min-width, 992px) {
+		text-align: left;
+	}
 
   li {
     margin-right: 10px;
+		text-align: center;
+		display: inline-block;
+
+		a {
+			margin-bottom: 10px;
+
+			@include responsive(min-width, 401px) {
+				margin-bottom: 0;
+			}
+		}
   }
 }
 
@@ -96,5 +112,3 @@
     transition: 0.2s ease-in;
   }
 }
-
-

@@ -1,8 +1,16 @@
 body {
-  background-image: url('../images/background.jpg');
+  background-image: url('../images/background-mobile.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   font-family: 'DIN Next W01 Light', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: $black;
+
+  @include responsive(min-width, 500px) {
+    background-image: url('../images/background.jpg');
+  }
+
+  @include responsive(min-width, 950px) {
+    background-image: none;
+  }
 }
