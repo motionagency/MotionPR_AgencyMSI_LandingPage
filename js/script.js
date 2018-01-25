@@ -42,4 +42,18 @@
         fullscreen();
     });
 
+    $(function(){
+  $(window).scroll(function() {
+    if($(document).scrollTop() > 2400) {
+      $('#fixed-footer').addClass('show');
+    } else {
+            $('#fixed-footer').removeClass('show');
+        }
+  });
+})
+
+$(window).on('scroll', function() {
+    console.log( $(this).scrollTop() );
+});
+
   });
