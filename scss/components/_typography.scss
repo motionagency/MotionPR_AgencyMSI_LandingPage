@@ -8,7 +8,12 @@
 
 h1 {
   font-family: 'DIN Next W01 Bold', Arial, sans-serif;
+  font-size: 2em; // 32px
+
+  @include responsive(min-width, 768px) {
   font-size: 3em; // 48px
+}
+
 }
 
 p {
@@ -23,19 +28,29 @@ blockquote {
 
 .motion-pr-logo {
   width: 284px;
-  height: 100px;
+  margin-bottom: 2em;
 }
 
 .agency-msi-logo {
   width: 318px;
-  height: 63px;
+  margin-bottom: 1em;
 }
 
 .plus-symbol {
-  width: 90px;
+  width: 40px;
   display: block;
-  margin: 0 auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  margin: 50px auto 50px auto;
+
+
+  @include responsive(min-width, 700px) {
+    width: 60px;
+  }
+
+  @include responsive(min-width, 992px) {
+    margin: 0 auto;
+    width: 75px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }

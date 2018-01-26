@@ -89,10 +89,15 @@
   li {
     margin-right: 10px;
 		text-align: center;
-		display: inline-block;
+		// display: block;
+
+    @include responsive(min-width, 401px) {
+      display: inline-block;
+  }
 
 		a {
 			margin-bottom: 10px;
+      font-weight: bold;
 
 			@include responsive(min-width, 401px) {
 				margin-bottom: 0;
@@ -107,7 +112,7 @@
   padding: 10px 25px 10px 25px;
   border-radius: 36px;
   border: solid 4px $motion-orange;
-  display: inline-block;
+  display: block;
   transition: 0.2s ease-in;
 
   &:hover {
@@ -125,7 +130,7 @@
   padding: 10px 25px 10px 25px;
   border-radius: 36px;
   border: solid 4px $motion-orange;
-  display: inline-block;
+  display: block;
   transition: 0.2s ease;
 
   &:hover {

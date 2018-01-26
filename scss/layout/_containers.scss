@@ -59,10 +59,18 @@
   background-color: rgba(255, 255, 255, .95);
   text-align: center;
 
-  p {
-    margin-bottom: 3rem;
+  .logo-wrap-one {
+
+    p {
+      margin-bottom: 1.5rem;
+    }
   }
 
+  .logo-wrap-two {
+    p {
+
+    }
+  }
   @include responsive(min-width, 992px) {
     height: 650px;
     display: flex;
@@ -77,4 +85,19 @@
 .break {
   height: 170px;
   background-color: transparent;
+}
+
+.mobile-social {
+  display: none;
+
+  @include responsive(max-width, 992px) {
+    display: block;
+  }
+}
+
+.desktop-social {
+
+  @include responsive(max-width, 992px) {
+    display: none;
+  }
 }

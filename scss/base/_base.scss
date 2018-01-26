@@ -1,12 +1,14 @@
 body {
-  background-image: url('../images/background-mobile.jpg');
-  background-attachment: fixed;
+  height: 100%;
+  background-image: url('../images/motion-bg-mobile.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: 'DIN Next W01 Light', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   background-color: $black;
 
   @include responsive(min-width, 500px) {
+    background-attachment: fixed;
     background-image: url('../images/background.jpg');
   }
 
