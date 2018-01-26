@@ -3,13 +3,18 @@
   align-items: center;
 
   .arrow-wrap {
-    width: 60px;
+    width: 50px;
     margin: 0 auto;
     display: block;
     position: absolute;
-    bottom: 75px;
+    bottom: 20px;
     left: 0;
     right: 0;
+
+    @include responsive(min-width, 1441px) {
+      width: 60px;
+      bottom: 75px;
+    }
   }
 }
 
@@ -58,6 +63,7 @@
 .third {
   background-color: rgba(255, 255, 255, .95);
   text-align: center;
+  padding: 50px 0 50px 0;
 
   .logo-wrap-one {
 
@@ -75,6 +81,7 @@
     height: 650px;
     display: flex;
     align-items: center;
+    padding: 0;
   }
 }
 
