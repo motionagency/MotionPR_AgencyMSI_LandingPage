@@ -56,4 +56,8 @@ $(window).on('scroll', function() {
     console.log( $(this).scrollTop() );
 });
 
+AOS.init({
+  duration: 1500,
+});
+
   });
