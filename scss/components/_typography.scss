@@ -49,8 +49,8 @@ blockquote {
   @include responsive(min-width, 992px) {
     margin: 0 auto;
     width: 75px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    // position: relative;
+    // top: 50%;
+    // transform: translateY(-50%);
   }
 }
