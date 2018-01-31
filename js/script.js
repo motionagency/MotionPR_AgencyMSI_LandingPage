@@ -53,9 +53,9 @@
 })
 
 // scroll position check
-$(window).on('scroll', function() {
-    console.log( $(this).scrollTop() );
-});
+// $(window).on('scroll', function() {
+//     console.log( $(this).scrollTop() );
+// });
 
 // animate on scroll
 AOS.init({
@@ -67,7 +67,7 @@ AOS.init({
 // Fades away as you scroll down
 
 $(window).scroll(function(){
-    $(".arrow-down").css("opacity", 1 - $(window).scrollTop() / 250); 
+    $(".arrow-down").css("opacity", 1 - $(window).scrollTop() / 250);
   //250 is fade pixels
   });
 
