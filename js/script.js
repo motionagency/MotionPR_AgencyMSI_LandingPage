@@ -52,12 +52,23 @@
   });
 })
 
+// scroll position check
 $(window).on('scroll', function() {
     console.log( $(this).scrollTop() );
 });
 
+// animate on scroll
 AOS.init({
   duration: 1500,
 });
 
+// Bouncing arrow bottom of full screen
+// Different arrow choices from Font Awesome
+// Fades away as you scroll down
+
+$(window).scroll(function(){
+    $(".arrow-down").css("opacity", 1 - $(window).scrollTop() / 250); 
+  //250 is fade pixels
   });
+
+});
