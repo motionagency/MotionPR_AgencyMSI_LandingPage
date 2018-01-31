@@ -5,6 +5,7 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 			<!-- Load CSS here. -->
 			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
 			<link rel="stylesheet" href="http://fast.fonts.net/cssapi/ac0da617-40e6-46db-b61a-f64934896d9d.css">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 			<link rel="stylesheet" href="css/aos.css">
@@ -13,6 +14,7 @@
 		</head>
 		<body>
 
+
 			<!-- desktop video -->
 			<video class="big-video" poster="" id="bgvid" playsinline autoplay muted loop>
 			<source src="http://msistaging.com/msio/motion_agencymsi_landing_page/video/Background_SingleLoop_Small.mp4" type="video/mp4">
@@ -20,7 +22,7 @@
 
 			<!-- laptop video -->
 			<video class="small-video" poster="" id="bgvid" playsinline autoplay muted loop>
-				<source src="http://msistaging.com/msio/motion_agencymsi_landing_page/video/final_small.mp4" type="video/mp4">
+				<source src="http://msistaging.com/msio/motion_agencymsi_landing_page/video/final_small.mp4" type="video/mp4"/>
 			</video>
 
 			<!-- hero -->
@@ -150,8 +152,14 @@
 							<div class="col-lg-6">
 								<ul class="button-list">
 									<li><a class="button-one" href="#">Read the Press Release</a></li>
-									<li><a class="button-two" href="#">Reach Out</a></li>
+									<li><a class="button-two" href="javascript:;" data-fancybox data-src="#motion">Reach Out</a></li>
+
+									<div style="display: none;max-width:500px;" id="motion">
+										<h2 data-selectable="true">Ciao!</h2>
+										<p data-selectable="true">Testadabebe fashanada lasagna!!!</p>
+									</div>
 								</ul>
+
 							</div>
 							<div class="col-lg-6">
 								<p>233 N. Michigan Ave., 30th Floor, Chicago, IL 60601 <span style="white-space: nowrap;">| 312-946-6048</span></p>
@@ -164,6 +172,7 @@
 
 			<!-- Load JavaScript here.  -->
 			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
 			<script type="text/javascript" src="js/aos.js"></script>
 			<script type="text/javascript" src="js/script.js"></script>
 		</body>
