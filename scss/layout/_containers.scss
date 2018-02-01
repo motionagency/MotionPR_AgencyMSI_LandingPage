@@ -26,6 +26,11 @@
   .wrap {
     max-width: 850px;
     margin: 0 auto;
+    padding-top: 50px;
+
+    @include responsive(min-width, 600px) {
+      padding-top: 0;
+    }
   }
 
   @include responsive(min-width, 600px) {
@@ -36,7 +41,11 @@
 
   .blockquote-wrap {
     max-width: 450px;
-    float: right;
+    padding-bottom: 50px;
+    
+    @include responsive(min-width, 600px) {
+      float: right;
+    }
   }
 }
 

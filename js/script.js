@@ -60,6 +60,7 @@
 // animate on scroll
 AOS.init({
   duration: 1500,
+  disable: 'mobile'
 });
 
 // Bouncing arrow bottom of full screen
