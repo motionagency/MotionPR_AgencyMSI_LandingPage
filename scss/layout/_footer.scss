@@ -1,7 +1,7 @@
 #fixed-footer {
   display: none;
 
-  @include responsive(min-width, 600px) {
+  @include responsive(min-width, 950px) {
     display: block;
   position: fixed;
   bottom: 0;
@@ -73,7 +73,7 @@ footer {
     text-align: center;
   }
 
-  @include responsive(min-width, 600px) {
+  @include responsive(min-width, 950px) {
     display: none;
   }
 }
