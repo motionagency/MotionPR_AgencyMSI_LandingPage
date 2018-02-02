@@ -56,6 +56,13 @@
   .wrap {
     max-width: 900px;
     margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 50px;
+
+    @include responsive(min-width, 600px) {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
   }
 
   blockquote {
@@ -95,16 +102,27 @@
 }
 
 .fourth {
-  height: 225px;
+  display: none;
+  // height: 225px;
 
-  @include responsive(min-width, 500px) {
+  // @include responsive(min-width, 500px) {
+  //   height: 1000px;
+  // }
+
+  @include responsive(min-width, 600px) {
+    display: block;
     height: 1000px;
   }
 }
 
 .break {
-  height: 170px;
+  display: none;
   background-color: transparent;
+
+  @include responsive(min-width, 600px) {
+    height: 170px;
+    display: block;
+  }
 }
 
 .mobile-social {

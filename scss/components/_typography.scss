@@ -40,6 +40,11 @@ blockquote {
   width: 40px;
   display: block;
   margin: 50px auto 30px auto;
+  height: 50px;
+
+  @include responsive(min-width, 600px) {
+    height: auto;
+  }
 
 
   @include responsive(min-width, 700px) {
