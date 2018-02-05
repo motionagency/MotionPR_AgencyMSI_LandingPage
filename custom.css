@@ -1,0 +1,66 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : Motion PR + AgencyMSI landing page Wufoo form CSS
+ Author : Chris Paccione
+ URL : http://
+
+ Last Updated :
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+#header {
+	display: none;
+}
+
+label.desc {
+	display: none;
+}
+
+input.text, .textarea {
+	border: 4px solid #707070;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+textarea.textarea{
+	background: none;
+	border: 4px solid #707070;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+form.wufoo{
+	margin: 20px 14px 0 14px;
+	padding: 0 30px 20px 0;
+	position: relative;
+}
+
+form li.leftHalf, form li.rightHalf {
+  width: 46% !important;
+}
+
+@media only screen and (max-width: 500px) {
+	form li.leftHalf, form li.rightHalf {
+		width: 42% !important;
+	}
+}
+
+.submit {
+  background-color: transparent;
+  color: #fa1058;
+  padding: 10px 25px 10px 25px;
+  border-radius: 36px;
+  border: solid 4px #FA1058;
+  display: block;
+  transition: 0.2s ease;
+	height: 50px;
+	width: 186px !important;
+}
+
+.submit:hover {
+  background-color: #FA1058;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.2s ease-in;
+	cursor: pointer;
+}

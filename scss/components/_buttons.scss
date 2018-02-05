@@ -107,7 +107,7 @@
 
 	.button-one {
 		margin-bottom: 15px;
-		
+
 		@include responsive(min-width, 500px) {
 			margin-bottom: 0px;
 		}
@@ -146,5 +146,6 @@
     color: $white;
     text-decoration: none;
     transition: 0.2s ease-in;
+		cursor: pointer;
   }
 }

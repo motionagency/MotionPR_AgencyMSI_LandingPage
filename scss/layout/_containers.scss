@@ -19,7 +19,8 @@
 }
 
 .first {
-  background-color: rgba(255, 255, 255, .95);
+  //background-color: rgba(255, 255, 255, .95);
+  background-color: hsla(0, 0, 100%, .95);
   color: $black;
   height: 100%;
 
@@ -42,7 +43,7 @@
   .blockquote-wrap {
     max-width: 450px;
     padding-bottom: 50px;
-    
+
     @include responsive(min-width, 600px) {
       float: right;
     }
@@ -145,4 +146,19 @@
   width: 75%;
 }
 
+.modal-lg {
+  max-width: 970px;
 
+  @include responsive(max-width, 970px) {
+    max-width: 100%;
+  }
+}
+
+.modal-body {
+  width: 774px;
+  margin: 0 auto;
+
+  @include responsive(max-width, 774px) {
+    width: 100%;
+  }
+}

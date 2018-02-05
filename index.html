@@ -92,6 +92,7 @@
 							<div class="logo-wrap-one">
 								<img data-aos="fade-right" class="motion-pr-logo" src="images/motionprlogo.svg" alt="Motion PR logo">
 								<p data-aos="fade">Motion PR is a public relations and marketing agency that believes that building meaningful relationships are key to moving brands forward in this new media landscape. Founded in Chicago in 2006 by Kim Eberl, Motion PR leverages digital marketing and public relations to help brands develop and launch robust communications strategies for brands in a variety of industries and have prided themselves in the deep Chicago <span style="white-space: nowrap">media expertise.</span></p>
+
 								<!-- MotionPR mobile social -->
 								<ul class="social-motion mobile-social">
 									<li><a href="https://www.motionpr.net/" target="_blank"><i class="fa fa-lg fa-mouse-pointer" aria-hidden="true"></i></a></li>
@@ -153,30 +154,7 @@
 							<div class="col-lg-6">
 								<ul class="button-list">
 									<li><a class="button-one" href="#">Read the Press Release</a></li>
-									<li><a class="button-two" href="javascript:;" data-fancybox data-src="#motion">Reach Out</a></li>
-
-									<div style="display: none;" id="motion">
-										<h1>Drop <span class="motion">us</span> a line.</h1>
-										<div id="wufoo-k1agtdbm17llwfs">
-										Fill out my <a href="https://eggcentrictv.wufoo.com/forms/k1agtdbm17llwfs">online form</a>.
-										</div>
-										<script type="text/javascript">var k1agtdbm17llwfs;(function(d, t) {
-										var s = d.createElement(t), options = {
-										'userName':'eggcentrictv',
-										'formHash':'k1agtdbm17llwfs',
-										'autoResize':true,
-										'height':'497',
-										'async':true,
-										'host':'wufoo.com',
-										'header':'show',
-										'ssl':true};
-										s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-										s.onload = s.onreadystatechange = function() {
-										var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-										try { k1agtdbm17llwfs = new WufooForm();k1agtdbm17llwfs.initialize(options);k1agtdbm17llwfs.display(); } catch (e) {}};
-										var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-										})(document, 'script');</script>
-									</div>
+								<li><a class="button-two" data-toggle="modal" data-target=".bd-example-modal-lg">Reach Out</a></li>
 								</ul>
 
 							</div>
@@ -188,6 +166,39 @@
 					</div>
 				</footer>
 			</section>
+			<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content">
+						 <div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<h1>Drop <span class="motion">us</span> a line.</h1>
+								<div id="wufoo-k1agtdbm17llwfs">
+								Fill out my <a href="https://eggcentrictv.wufoo.com/forms/k1agtdbm17llwfs">online form</a>.
+								</div>
+								<script type="text/javascript">var k1agtdbm17llwfs;(function(d, t) {
+								var s = d.createElement(t), options = {
+								'userName':'eggcentrictv',
+								'formHash':'k1agtdbm17llwfs',
+								'autoResize':true,
+								'height':'497',
+								'async':true,
+								'host':'wufoo.com',
+								'header':'show',
+								'ssl':true};
+								s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+								s.onload = s.onreadystatechange = function() {
+								var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+								try { k1agtdbm17llwfs = new WufooForm();k1agtdbm17llwfs.initialize(options);k1agtdbm17llwfs.display(); } catch (e) {}};
+								var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+								})(document, 'script');</script>
+							</div>
+						</div>
+					</div>
+				</div> <!-- modal close -->
 
 			<!-- mobile footer -->
 			<div class="mobile-footer">
@@ -196,11 +207,10 @@
 						<div class="col-lg-6">
 							<ul class="button-list">
 								<li><a class="button-one" href="#">Read the Press Release</a></li>
-								<li><a class="button-two" href="javascript:;" data-fancybox data-src="#motion">Reach Out</a></li>
-
-								<div id="motion">
+								<li><a class="button-two" data-toggle="modal" data-target=".bd-example-modal-lg">Reach Out</a></li>
+								<!-- <div id="motion">
 									<h1>Drop <span class="motion">us</span> a line.</h1>
-								</div>
+								</div> -->
 							</ul>
 
 						</div>
@@ -215,6 +225,8 @@
 
 			<!-- Load JavaScript here.  -->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
 			<script src="js/aos.js"></script>
 			<script src="js/script.js"></script>
