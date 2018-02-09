@@ -155,7 +155,7 @@
 							<div class="col-lg-6">
 								<ul class="button-list">
 									<li><a class="button-one" href="#">Read the Press Release</a></li>
-								<li><a class="button-two" data-toggle="modal" data-target=".bd-example-modal-lg">Reach Out</a></li>
+								<li><a class="button-two" data-toggle="modal" data-target=".motion-modal">Reach Out</a></li>
 								</ul>
 
 							</div>
@@ -167,39 +167,35 @@
 					</div>
 				</footer>
 			</section>
-			<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+			<!-- modal div -->
+			<div class="modal fade motion-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 				<div class="modal-dialog modal-lg modal-dialog-centered">
 					<div class="modal-content">
-						 <div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true">&times;</span>
-								</button>
-							</div>
-							<div class="modal-body">
-								<h1>Drop <span class="motion">us</span> a line.</h1>
-									<div id="wufoo-k1agtdbm17llwfs">
-									Fill out my <a href="https://eggcentrictv.wufoo.com/forms/k1agtdbm17llwfs">online form</a>.
-									</div>
-									<script type="text/javascript">var k1agtdbm17llwfs;(function(d, t) {
-									var s = d.createElement(t), options = {
-									'userName':'eggcentrictv',
-									'formHash':'k1agtdbm17llwfs',
-									'autoResize':true,
-									'height':'497',
-									'async':true,
-									'host':'wufoo.com',
-									'header':'show',
-									'ssl':true};
-									s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-									s.onload = s.onreadystatechange = function() {
-									var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-									try { k1agtdbm17llwfs = new WufooForm();k1agtdbm17llwfs.initialize(options);k1agtdbm17llwfs.display(); } catch (e) {}};
-									var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-									})(document, 'script');</script>
-							</div>
+
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
 						</div>
+
+						<div class="modal-body">
+							<h1>Drop <span class="motion">us</span> a line.</h1>
+	                        <iframe height="425"
+	                                allowTransparency="true"
+	                                frameborder="0"
+	                                scrolling="no"
+	                                style="width:100%;border:none"
+	                                src="https://eggcentrictv.wufoo.com/embed/k1agtdbm17llwfs/">
+	                          <a href="https://eggcentrictv.wufoo.com/forms/k1agtdbm17llwfs/">
+	                            Fill out my Wufoo form!
+	                          </a>
+	                        </iframe>                              
+						</div>
+
 					</div>
-				</div> <!-- modal close -->
+				</div>
+			</div> <!-- modal close -->
 
 			<!-- mobile footer -->
 			<div class="mobile-footer">
@@ -208,10 +204,7 @@
 						<div class="col-lg-6">
 							<ul class="button-list">
 								<li><a class="button-one" href="#">Read the Press Release</a></li>
-								<li><a class="button-two" data-toggle="modal" data-target=".bd-example-modal-lg">Reach Out</a></li>
-								<!-- <div id="motion">
-									<h1>Drop <span class="motion">us</span> a line.</h1>
-								</div> -->
+								<li><a class="button-two" data-toggle="modal" data-target=".motion-modal">Reach Out</a></li>
 							</ul>
 
 						</div>
@@ -222,7 +215,6 @@
 					</div>
 				</div>
 			</div>
-
 
 			<!-- Load JavaScript here.  -->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>

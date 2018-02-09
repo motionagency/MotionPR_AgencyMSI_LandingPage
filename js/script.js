@@ -72,4 +72,11 @@ $(window).scroll(function(){
   //250 is fade pixels
   });
 
+// Add height to wufoo modal - used for Firefox
+// $('.button-two').click(function() {
+//  $('iframe.wufoo-form-container').css({
+//     'height': '450'
+//   });
+// });
+
 });
