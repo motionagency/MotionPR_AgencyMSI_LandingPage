@@ -11,7 +11,7 @@ h1 {
   font-size: 2em; // 32px
 
   @include responsive(min-width, 768px) {
-  font-size: 3em; // 48px
+  font-size: 2.75em; // 48px
 }
 
 }
