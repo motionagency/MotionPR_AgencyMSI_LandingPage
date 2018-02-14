@@ -140,6 +140,7 @@
   border: solid 4px $motion-orange;
   display: block;
   transition: 0.2s ease;
+	cursor: pointer;
 
   &:hover {
     background-color: $motion-orange;

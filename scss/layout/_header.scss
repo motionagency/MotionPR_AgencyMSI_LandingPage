@@ -1,6 +1,6 @@
 // Mobile gif
 .mobile-gif {
-  @include responsive(min-width, 950px) {
+  @include responsive(min-width, 1100px) {
     display: none;
   }
 }
@@ -31,7 +31,7 @@ video {
 .big-video {
   display: none;
 
-  @include responsive(min-width, 950px) {
+  @include responsive(min-width, 1100px) {
     display: block;
   }
 

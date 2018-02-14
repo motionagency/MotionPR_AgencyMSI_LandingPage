@@ -12,7 +12,7 @@ body {
     background-image: url('../images/background.jpg');
   }
 
-  @include responsive(min-width, 950px) {
+  @include responsive(min-width, 1100px) {
     background-image: none;
   }
 }
