@@ -83,17 +83,11 @@
   padding: 50px 0 50px 0;
 
   .logo-wrap-one {
-
     p {
       margin-bottom: 1.5rem;
     }
   }
 
-  .logo-wrap-two {
-    p {
-
-    }
-  }
   @include responsive(min-width, 992px) {
     height: 650px;
     display: flex;
